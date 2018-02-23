@@ -1,0 +1,39 @@
+SetProcessDpiAwareness failed: "COM error 0x80070005  (Unknown error 0x0ffffffff80070005)"
+[INFO  - 2018-02-23T20:48:27.947Z] GhostDriver - Main - running on port 52210
+[INFO  - 2018-02-23T20:48:31.309Z] Session [e83c8e60-18da-11e8-b11c-f193b0171143] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-23T20:48:31.309Z] Session [e83c8e60-18da-11e8-b11c-f193b0171143] - page.customHeaders:  - {}
+[INFO  - 2018-02-23T20:48:31.309Z] Session [e83c8e60-18da-11e8-b11c-f193b0171143] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-23T20:48:31.310Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e83c8e60-18da-11e8-b11c-f193b0171143
+[ERROR - 2018-02-23T20:48:53.815Z] Session [e83c8e60-18da-11e8-b11c-f193b0171143] - page.onError - msg: Error: [ng:areq] http://errors.angularjs.org/1.4.0/ng/areq?p0=AirportsDataCtrl&p1=not%20a%20function%2C%20got%20undefined
+Sb@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:21:470
+Pa@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:22:27
+https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:79:175
+A@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:59:279
+M@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:60:122
+g@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:54:301
+g@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:54:324
+M@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:61:287
+g@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:54:301
+g@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:54:324
+M@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:61:287
+g@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:54:301
+https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:53:331
+https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:19:406
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:134:83
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:134:314
+https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:19:368
+e@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:38:514
+d@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:19:289
+zc@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:20:63
+Yd@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:18:390
+https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:288:162
+i@https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js:2:27334
+fireWith@https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js:2:55004
+ready@https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js:2:29896
+J@https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js:2:30075
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-23T20:48:53.816Z] Session [e83c8e60-18da-11e8-b11c-f193b0171143] - page.onError - stack:
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js:107)
+
+  phantomjs://platform/console++.js:263 in error
